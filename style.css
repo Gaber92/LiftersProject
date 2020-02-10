@@ -1,0 +1,82 @@
+.square{
+    width:600px;
+    height:100px;
+    border:10px;
+    border-style: solid
+}
+
+.textAlignLeft{
+    text-align: left; 
+}
+
+.table{
+    border-collapse: collapse;
+    color: white;
+}
+
+.tr{ 
+    border: solid;
+    border-width: 1px 0;
+}
+
+.f2 {
+    background-color: goldenrod;
+    width: 100px
+    height: 100px;
+}
+
+.f2:hover {
+    background-color: rgb(134, 125, 0);
+    border: 2px solid rgb(47, 58, 0)
+}
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #000000b2;
+    color: white;
+    font-size: 60px;
+    font-style: italic;
+
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width :30%;
+
+}
+
+.buttonDodaj {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #5f5901, 0 0 40px #5f5901, 0 0 50px #5f5901, 0 0 60px #5f5901, 0 0 70px #5f5901;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #8a7609, 0 0 40px #8a7609, 0 0 50px #8a7609, 0 0 60px #8a7609, 0 0 70px #8a7609, 0 0 80px #8a7609;
+    }
+  }
+
+  

@@ -1,0 +1,39 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+
+<p class = "header glow" style="font-family:Arial, BrushScript MT, sans-serif"> Evidenca dviganja</p>
+
+<body background="ozadje.jpg"> 
+<img src="https://scontent.flju2-2.fna.fbcdn.net/v/t1.0-9/64323825_10157159440893213_2757297050444890112_n.jpg?_nc_cat=106&_nc_oc=AQn1fVvuwUstV2it1QVgmZq419UNIaXq_y4w6xOsQ8oRjfJuZk94jGdCuqxFN-jgW10&_nc_ht=scontent.flju2-2.fna&oh=04b1fe723c49ae317ad855a60b95b5af&oe=5E606696" alt="luka" class = "image">
+
+
+
+</body>
+
+<h2 class ="glow">Tabela rezultatov dviganja</h2>
+
+<form>
+  Ime:<br>
+  <input  class = f2 type="text" id="Ime"><br>
+
+  Poteg:<br>
+  <input class = f2 type="text" id="Poteg"><br>
+
+  Sunek:<br>
+  <input class = f2 type="text" id="Sunek"><br>
+  
+  <input type="button" value="Dodaj" class = "buttonDodaj" onclick="vstaviRez()" />
+  
+<table class = "table" id="Rezultati" style="width:100%" frame="box"  >
+  <tr class = "tr">
+    <th class = "textAlignLeft">Ime</th>
+    <th class = "textAlignLeft">Poteg</th> 
+    <th class = "textAlignLeft">Sunek</th>
+    <th class = "textAlignLeft">Biatlon</th>
+    <th></th>
+  </tr>
+</table>
+
+<script src="tabel_filling.js">
+</script>
