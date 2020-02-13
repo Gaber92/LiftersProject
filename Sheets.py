@@ -58,7 +58,7 @@ class TestLifters(unittest.TestCase):
            
         elem_table_rows = browser.find_elements_by_class_name('tr')
 
-
+        #test
         # Test for comparrison between Excell sheet and output table on HTML webpage
         keys = ["Ime", "Poteg", "Sunek", "Biatlon"]
         # defining array of strings with values same as elements by class name tr
