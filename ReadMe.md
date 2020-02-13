@@ -1,4 +1,4 @@
-﻿#Lifter_Sheets
+# Lifter_Sheets
 
 In this small project I created I had a little fun with Python, JS, HTML and CSS. 
 I created a very basic HTML web page which is used to insert your weightlifting results.
