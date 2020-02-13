@@ -24,9 +24,6 @@ data = sheet.get_all_records()
 lifterList = []
 #empty array of lifters
 
-
-class TestLifters(unittest.TestCase):   
-    #making a class of TestLifters which is accompanied by a library of unit tests
     
 class TestLifters(unittest.TestCase):
     # making a class of TestLifters which is accompanied by a library of unit tests
